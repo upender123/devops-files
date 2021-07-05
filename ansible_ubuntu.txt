@@ -32,5 +32,11 @@ slave1 ansible_ssh_host=<public adddess of slave1>
 Communication to slave :
 =====================
 ansible -m ping all : all the hosts which were added is displayed
-ansible -m ping <configration> : it will ping particular 
+ansible -m ping <configration> : it will ping particular
+
+     OR
+ ansible all -i slaves.txt -m ping
+ 
+     OR
+ ansible [gropuname] -i slaves.txt - oing
 
