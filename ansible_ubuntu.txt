@@ -40,5 +40,3 @@ ansible all -i slaves.txt -m ping
      OR
 ansible [gropuname] -i slaves.txt - ping
 
-++++++++ bye ++++++++++
-
