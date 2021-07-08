@@ -38,5 +38,5 @@ ansible -m ping <configration> : it will ping particular
  ansible all -i slaves.txt -m ping
  
      OR
- ansible [gropuname] -i slaves.txt - oing
+ ansible [gropuname] -i slaves.txt - ping
 
