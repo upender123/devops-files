@@ -35,8 +35,8 @@ ansible -m ping all : all the hosts which were added is displayed
 ansible -m ping <configration> : it will ping particular
 
      OR
- ansible all -i slaves.txt -m ping
+ansible all -i slaves.txt -m ping 
  
      OR
- ansible [gropuname] -i slaves.txt - ping
+ansible [gropuname] -i slaves.txt - ping
 
